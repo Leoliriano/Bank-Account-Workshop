@@ -1,0 +1,110 @@
+body {
+  background-color: #f4f7fa; /* Soft gray for a light, airy feel */
+  color: #333; /* Darker text for better readability */
+}
+
+.app-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Updated font */
+  background-color: #ffffff; /* Pure white background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #0056b3; /* USAA blue for headers */
+}
+
+.balance-container {
+  margin-bottom: 20px;
+  background-color: #e8efff; /* Light blue background for balance container */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.balance-container h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #0044cc; /* Slightly darker blue for subheaders */
+}
+
+.transaction-container {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transaction-container h3 {
+  font-size: 16px;
+  margin-right: 10px;
+  color: #333; /* Standard text color for readability */
+}
+
+.transaction-container input[type="number"],
+.transaction-container input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc; /* Adding a border for better definition */
+  border-radius: 4px;
+  background-color: #fff; /* White background for input fields */
+}
+
+.transaction-container button {
+  padding: 8px 16px;
+  background-color: #0077cc; /* Brighter blue for buttons */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.transaction-container button:hover {
+  background-color: #005699; /* Darker blue on hover for better interaction */
+}
+
+.transaction-log-container {
+  margin-top: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.transaction-log-container h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #0056b3;
+}
+
+.transaction-log-button {
+  padding: 8px 16px;
+  background-color: #0077cc; /* Consistent button color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.transaction-log-button:hover {
+  background-color: #005699;
+}
+
+.transaction-log-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transaction-log-item {
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #f1f1f1; /* Light gray for list items */
+  border-radius: 4px;
+}
